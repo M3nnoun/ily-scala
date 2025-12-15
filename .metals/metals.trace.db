@@ -1,0 +1,2 @@
+2025-12-08 13:32:31.561557+01:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: java.lang.OutOfMemoryError: Java heap space [2.4.240/3]" [50000-240]

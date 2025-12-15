@@ -1,0 +1,18 @@
+# Ignore everything by default
+*
+
+# Allow git files
+!.gitignore
+!README.md
+
+# Allow directories (needed so git can see inside)
+!src/
+!src/main/
+!src/main/scala/
+
+# Ignore build / IDE folders
+src/main/scala/.bsp/
+src/main/scala/.scala-build/
+
+# Allow ONLY the first file (start with one)
+!src/main/scala/Main.scala
