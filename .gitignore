@@ -15,4 +15,4 @@ src/main/scala/.bsp/
 src/main/scala/.scala-build/
 
 # Allow ONLY the first file (start with one)
-!src/main/scala/Main.scala
+src/main/scala/Main.scala
